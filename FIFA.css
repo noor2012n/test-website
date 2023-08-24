@@ -1,0 +1,331 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+div.miancontect{
+      height: 800px;
+      background-image:url(background.jpg);
+      background-repeat: no-repeat;
+    background-size:cover;
+}
+
+        
+
+div.navbar{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    background:rgba(0,0,0,0.6);
+height: 75px;
+}
+div.navbar a.join{color: white;
+    margin:-3px;
+    
+        padding: 0px;
+    
+        border-radius: 8px;
+        border: 2px  solid red;
+        height: 30px;} 
+div.navbar a{
+    color: white;
+    margin:70px;
+    
+        padding: 0px;
+        border-radius: 8px;
+        border: 2px  solid  blue;
+        height: 30px;
+    margin-top: 8px;
+
+} 
+joinnavbar{
+    display:flex;
+    text-align: center;
+    background-color: royalblue;
+height: 75px;
+}
+div.navbar img{
+width: 100px;
+    height: 100px;
+}
+div.navbar button{
+height: 40px;
+    background-color: royalblue;
+    color:red;
+}
+
+div.detalis button{
+     padding: 10px;
+    justify-content: center;
+    align-content: center;
+    background-color: darkturquoise;  
+color: white;
+    
+}
+
+div.detalis{
+   text-align: center;
+    padding: 15px;
+    color: white; 
+}
+
+div.games{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+div.game1{
+    height:120px;
+    width:120px;
+    border-radius:120px;
+    background-image: url(pubg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+div.game{
+text-align: center;
+}
+div.game2 {
+background-image: url(batman.jpg);
+    background-size: cover;
+    background-position: center;
+    height:120px;
+    width:120px;
+    border-radius:120px;
+}
+div.game3 {
+background-image: url(callofduty.jpg);
+    height:120px;
+    width:120px;
+    border-radius:120px;
+     height:120px;
+    width:120px;
+    background-size: cover;
+    background-position: center;
+}
+ div.game4 {
+background-image: url(gta.jpg);
+     height:120px;
+    width:120px;
+    border-radius:120px;
+     height:120px;
+    width:120px;
+    background-size: cover;
+    background-position: center;
+}
+div.game{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+div.miangame{
+    
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    align-content: center;
+    margin: auto;
+    background-color: black;
+    color: white;
+    padding: 60px;
+}
+div.miangame img{
+    width: 40%;
+    margin-right: -100px;
+    border-radius: 20px;
+    line-height: 40px
+}
+div.miangame button{
+     padding: 10px;
+  justify-content: center;
+    align-content: center;
+    background-color: aqua;  
+color: white;
+    width: 40px;
+    height: 20px;
+}
+div.posts{
+    display: flex;
+    width: 60%;
+    margin: auto;
+    justify-content:space-around;
+    align-content: center;
+    
+}
+div.post{
+    margin: 25px;
+    background-color: black;
+    color: white;
+    border-radius:8px;
+    
+}
+div.postmain h1,div.postmain p{
+    text-align: center;
+}
+div.post p{
+   font-size: 15px;
+    text-align: left;
+}
+ div.priceing h2{
+    text-align: center;
+}
+.prices{
+display: flex;
+    justify-content: center;
+    width: 60%;
+        margin: auto;
+    text-align: center;
+}
+div.price{
+    width: 30%;
+    background-color: darkslateblue;
+    color: white;
+    margin: 8px;
+padding-bottom: 15px;
+    padding-top: 15px;
+     border-radius: px;
+}
+
+div.post h3,div.post h5,div.post p{
+padding-left: 10px;
+    padding-right: 10px;
+}
+div.post h5,div.post p{
+    display: inline-block;
+}
+
+div.post1 div.img,div.post2 div.img,div.post3 div.img{
+    background-image: url(keybored.jpg);
+    height: 150px;
+    background-position: center;
+     border-radius:8px;
+    background-size: cover;
+}
+div.post2 div.img{
+     background-image: url(latop.jpg);
+}
+div.post3 div.img{
+     background-image:url(play.jpg);
+}
+
+
+div.cotmers{
+    display: flex;
+    width: 50%;
+    margin: auto;
+    justify-content:space-around;
+    align-content: center;
+    
+    
+}
+div.nour{
+    margin: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+ 
+div.nour1 div.img{
+    background-image: url(man.png);
+    height: 80px;
+}
+div.nour2 div.img{
+    background-image: url(boy.png);
+}
+div.nour div.img {
+    width: 100px;
+    background-color: white;
+    height: 100px;
+    margin: auto;
+    border-radius: 100px;
+    margin-top: -50px;
+    background-size: cover;
+    background-position: center;
+    border: solid 1px blue
+        
+}
+div.cotmers h1{
+    text-align: center;
+}
+div.cotmer h1{
+    text-align: center;
+}
+div.price button{
+    padding: 10px;
+  justify-content: center;
+    align-content: center;
+    background-color: transparent;  
+color: white;
+    width: 70px;
+    height: 70px;
+    border: 1px solid blue;
+    border-radius: 70px;
+}
+div.planprice{
+    background-color: darkblue;
+    padding-bottom:10px;
+    padding-top:10px;
+}
+div.planprice h3{
+    margin:0;
+}
+.joinform{
+display: flex;
+    margin: auto;
+    justify-content: center;
+    width: 35%;
+    border: 2px solid blue;
+    border-radius:8px;
+    margin-top: 50px;
+}
+.joinform .form,.joinform .image{
+    width:50%;
+}
+.joinform .image{
+    background-image: url(sian%20up%20now.png);
+    background-size: cover;
+    height: 600px;
+    background-position: top;
+    padding: 15px;
+    margin-right: 240px;
+    border-top-left-radius: 10px;
+     border-bottom-left-radius: 10px;     
+}
+.form .input, .form button{
+padding: 10px;
+    font-size: 15px;
+    border: 1px solid blue;
+    border-radius: 5px
+        
+}
+
+
+
+.form{
+    width: 60%;
+       margin: auto; 
+display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding-top: 100px;
+    padding-left: 300px;
+    justify-content:space-around
+    
+}
+
+.form button{
+
+    background-color: royalblue;
+    color: white;
+}
+div.fottor{
+    justify-content: center;
+    color: white;
+    background-color: royalblue;
+    text-align: center;
+    margin-top: 5px;
+    padding: 10px;
+    
+}
